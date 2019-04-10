@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+html, body {
+    height: 100%;
+}
+
+
+header {
+    margin: 0;
+  
+    
+}
+.fa-phone-volume {
+    padding: 0 10px;
+}
+
+.logo {
+    background-image: url("../images/clmlogo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}

@@ -7,18 +7,11 @@ html, body {
 
 header {
     margin: 0;
-  
     
 }
 .fa-phone-volume {
     padding: 0 10px;
 }
 
-.logo {
-    background-image: url("../images/clmlogo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-}
+
+

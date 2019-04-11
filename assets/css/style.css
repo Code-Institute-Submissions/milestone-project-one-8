@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
+/******** Navbar ************/
+
+.fa-phone-volume {
+    padding: 0 10px;
+}
+
+
+
+
+/******** Header ************/
 
 header {
     margin: 0;
     height: 100%;
-    
 }
-.fa-phone-volume {
-    padding: 0 10px;
-}
+
 
 .wrapper {
     background-image: url(../images/clouds-cornfield-countryside-158827.jpg);
@@ -22,7 +30,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    z-index:-1;
+
 }
 
 .callout {
@@ -42,5 +51,28 @@ header {
     height: 50px;
     font-size: 18px;
     padding: 14px 35px;
+}
+
+/******** Services ************/
+
+section {
+    height: 100%;
+}
+
+.services {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    height: 500px;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.services h3 {
+    text-align: center;
+    
 }
 

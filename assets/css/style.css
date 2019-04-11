@@ -7,11 +7,40 @@ html, body {
 
 header {
     margin: 0;
+    height: 100%;
     
 }
 .fa-phone-volume {
     padding: 0 10px;
 }
 
+.wrapper {
+    background-image: url(../images/clouds-cornfield-countryside-158827.jpg);
+    min-height: 100%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 
+.callout {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.getquote {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #E15A62;
+    color: #FEF5F5;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    padding: 14px 35px;
+}
 

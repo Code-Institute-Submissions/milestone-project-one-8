@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
-
+html,body {
+    height: 100%;
+}
 
 /******** Navbar ************/
 
@@ -19,11 +21,39 @@ header {
     margin: 0;
 }
 
-.navbar-transparent {
-    background: white;
+/* change the background color */
+.navbar-custom {
+    background-color: green;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
 }
 
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+    
+
 .top {
+    text-align: center;
+    }
+
+.stop {
     text-align: center;
 }
 
@@ -75,6 +105,7 @@ header {
     color: white;
     background-color: green;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 /******** Services ************/
@@ -107,6 +138,17 @@ section {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    opacity: 0.65;
+    opacity: 0.25;
 }
 
+/*Media Queries*/
+
+@media (max-width: 575px) {
+    .top {
+        position: absolute;
+        top: 150px;
+    }
+    .stop {
+        position: relative;
+        top: 65px;
+    }

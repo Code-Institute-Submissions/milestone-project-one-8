@@ -3,7 +3,6 @@
 html,body {
     height: 100%;
 }
-
 /******** Navbar ************/
 
 .fa-phone-volume {
@@ -14,27 +13,23 @@ html,body {
     text-align: right;
 }
 
-
 /******** Header ************/
 
 header {
     margin: 0;
 }
 
-/* change the background color */
 .navbar-custom {
-    background-color: green;
+    background-color: #389a14;
 }
-/* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(255,255,255,.8);
 }
-/* change the link color */
+
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
-/* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
@@ -61,12 +56,17 @@ header {
     background-image: url(../images/clouds-cornfield-countryside-158827.jpg);
     height: 100vh;
     width: 100vw;
-    background-position: bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
-    
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+    height: auto;
 }
 
 /*.middle {
@@ -84,7 +84,7 @@ header {
     text-align: center;
 } 
 
-.getquote {
+#getquote {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     background-color: #E15A62;
@@ -94,25 +94,39 @@ header {
     height: 50px;
     font-size: 18px;
     padding: 14px 35px;
+    display: block;
+    margin: auto;
     text-align: center;
-    display: inline-block;
-    margin: 15px;
 }
 
-.uppercase {
+#uppercase {
     text-transform: uppercase;
-    margin: 15px;
+    padding: 15px;
     color: white;
-    background-color: green;
+    background-color: #696469;
     letter-spacing: 3px;
     text-align: center;
+    display:block;
+    border-radius: 5px;
+    font-size: 3vw;
 }
 
-/******** Services ************/
+
+
+/******** Our Services ************/
 
 section {
     
     }
+    
+.opaque-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 .services {
     background-color: white;
@@ -124,6 +138,9 @@ section {
     height: 300px;
 }
 
+.image {
+    border: dotted 1px pink;
+}
 
 .services h3 {
     text-align: center;
@@ -132,14 +149,13 @@ section {
 }
 
 #mower {
-    background-image: url("/assets/images/grass.jpg");
+    background-image: url("/assets/images/mower.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    opacity: 0.25;
-}
+    }
 
 /*Media Queries*/
 
@@ -152,3 +168,13 @@ section {
         position: relative;
         top: 65px;
     }
+    
+@media (min-width: 969px) {
+   .logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}

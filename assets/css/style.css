@@ -37,7 +37,7 @@ html,body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
     
-/******** Call Out ************/
+/******** Header ************/
 
 .top {
     text-align: center;
@@ -45,6 +45,22 @@ html,body {
 
 .stop {
     text-align: center;
+}
+
+.pos-logo {
+    height: 50vh;
+    position: relative;
+    top:5%;
+    margin-top: 5%;
+}
+
+.pos-quote {
+    position: relative;
+    }
+
+.pos-social {
+    position: relative;
+    top: 12%;
 }
 
 .wrapper {
@@ -132,8 +148,8 @@ html,body {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: black;
-    border: 1px solid black;
+    color: #696469;
+    border: 1px solid #696469;
     background: #ffffff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -143,8 +159,7 @@ html,body {
 }
 
 .social li a i:hover {
-    border: #389a14;
-    color: #389a14;
+    background: #389a14;
 }
 
 .media {
@@ -324,5 +339,29 @@ section {
 @media (min-width: 768px) and (max-width: 991px) {
    .ipad {
         margin-top: 50px
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+   .pos-social {
+        top: 15%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+   .pos-social {
+        top: 20%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+   .pos-logo {
+        top: 10%;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 319px) {
+   .pos-logo {
+        top: 15%;
     }
 }

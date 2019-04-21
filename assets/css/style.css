@@ -14,7 +14,7 @@ html,body {
 }
 
 .navbar-custom {
-    background-color: #389a14;
+    background-color: #696469;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -83,7 +83,7 @@ html,body {
 #getquote {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    background-color: #E15A62;
+    background-color: #dc3d47;
     color: #FEF5F5;
     border-radius: 50px;
     width: 180px;
@@ -93,18 +93,63 @@ html,body {
     display: block;
     margin: auto;
     text-align: center;
+    text-decoration: none;
+    transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
 }
+
+#getquote:hover {
+    background-color: #E15A62;
+    text-decoration: none;
+}
+
 
 #uppercase {
     text-transform: uppercase;
     padding: 15px;
     color: white;
-    background-color: #696469;
+    background-color: #389a14;
     letter-spacing: 3px;
     text-align: center;
     display:block;
     border-radius: 5px;
     font-size: 3vw;
+}
+
+.social {
+    text-align: center;
+    list-style: none;
+    padding: 25px 0;
+}
+
+.social li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    background: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
+}
+
+.social li a i:hover {
+    border: #389a14;
+    color: #389a14;
+}
+
+.media {
+    display: inline-block;
+    text-align: center;
 }
 
 /******** About ************/
@@ -237,7 +282,7 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     }
     
@@ -246,7 +291,7 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     }
 

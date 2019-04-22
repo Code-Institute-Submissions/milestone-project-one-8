@@ -10,6 +10,34 @@ section {
 html,body {
     height: 100%;
 }
+
+/********  Colours ********/
+
+
+.bg-colour-quote-form {
+    background-color: #696469
+}
+
+
+/********  Special / Paddings / Margins / Text ********/
+
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.centertext {
+    text-align: center;
+}
+
+
 /******** Navbar ************/
 
 .fa-phone-volume {
@@ -71,13 +99,13 @@ html,body {
 }
 
 .wrapper {
-    background-image: url(../images/landingver2.jpg);
+    background-image: url(../images/land4.jpeg);
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: initial;
+    background-position: bottom;
     margin: 0;
     padding: 0;
 }
@@ -141,6 +169,11 @@ html,body {
     padding: 25px 0;
 }
 
+.social li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .social li a i {
     width: 32px;
     height: 32px;
@@ -160,7 +193,7 @@ html,body {
 }
 
 .social li a i:hover {
-    background: #389a14;
+    background: #E15A62;
 }
 
 .media {
@@ -168,15 +201,8 @@ html,body {
     text-align: center;
 }
 
-/******** About ************/
+/******** About Page ************/
 
-.main {
-    text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    list-style: none;
-}
 #align {
     text-align: left;
 }
@@ -188,22 +214,18 @@ html,body {
 }
 
 .teamphoto {
-    padding-right: 20px;
+    padding-right: 0;
+    background-image: url(/assets/images/teamphoto.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 /******** Our Services ************/
 
 
     
-.opaque-overlay {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .pic {
     position: relative;
     overflow: hidden;
@@ -292,6 +314,50 @@ html,body {
     margin: 10px;
     
 }
+
+/********  Contact Page  ********/
+
+.small-logo {
+    width: 75%;
+    height: auto;
+    clear: both;
+    display: block;
+    }
+
+.contact-details-item {
+    display: block;
+    margin: 20px;
+    clear: both;
+}
+
+.contact-details-item .key,
+.contact-details-item .value {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.contact-details-item .key p,
+.contact-details-item .value p {
+    margin: 0;
+}
+
+.contact-details-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.contact-details-item .value {
+    position: relative;
+    width: 45%;
+}
+
+.margin-tweak {
+    margin-top: 10px;
+}
+
+
 
 /********  Image Breakers  ********/
 

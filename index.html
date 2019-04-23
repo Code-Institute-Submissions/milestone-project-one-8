@@ -13,8 +13,13 @@
 </head>
 
 <body>
-    <!--   Header -->
-    <header class="wrapper">
+
+    <!--------   HEADER/JUMBOTRON -------->
+
+    <header class="jumbotron" id="wrapper">
+
+        <!---------  Navbar -------->
+
         <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
             <a href="#" class="navbar-brand d-xs-none"><i class="fas fa-phone-volume"></i><span>0498 989 454</span></a>
             <button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navbarmenu">
@@ -33,38 +38,34 @@
             </div>
         </nav>
 
-        <div class="logo mt-0 mt-xl-5 container-fluid h-100 justify-content-lg-center align-items-lg-center">
-            <br>
-            <br>
-            <br>
-            <div class="row pos-logo">
-                <div class="col-12 offset-3-lg col-6-lg">
-                    <img src="/assets/images/CLAM-Final-TRANS.svg">
-                    <h4 class="mb-5" id="uppercase">Lawn Mowed from $40</h4>
-                </div>
+        <!--------  Logo / Callout / Quote Button  -------->
+
+        <div class="container-fluid logo">
+            <div class="pos-logo">
+                <img src="/assets/images/CLAM-Final-TRANS.svg">
             </div>
-            <div class="row pos-quote">
-                <div class="col-12">
-                    <a href="#" id="getquote">Get Quote</a>
-                </div>
+            <p>Lawn Mowed from $40</p>
+
+            <div class="pos-quote">
+                <a href="#" id="getquote">Get Quote</a>
             </div>
-            <div class="row pos-social">
-                <div class="col-12">
-                    <ul class="social">
-                        <li class="media"><a href=""><i class="fab fa-facebook fa-fw"></i></li></a>
-                            <li class="media"><a href=""><i class="fab fa-google-plus fa-fw"></i></li</a>
-                                <li class="media"><a href=""><i class="fab fa-pinterest fa-fw"></i></li></a>
-                                    <li class="media"><a href=""><i class="fab fa-twitter fa-fw"></i></li></a>
-                                        <li class="media"><a href=""><i class="fab fa-instagram fa-fw"></i></li></a>
-                    </ul>
-                </div>
+
+            <div class="pos-social">
+                <ul class="social">
+                    <li class="media"><a href=""><i class="fab fa-facebook fa-fw"></i></li></a>
+                        <li class="media"><a href=""><i class="fab fa-google-plus fa-fw"></i></li</a>
+                            <li class="media"><a href=""><i class="fab fa-pinterest fa-fw"></i></li></a>
+                                <li class="media"><a href=""><i class="fab fa-twitter fa-fw"></i></li></a>
+                                    <li class="media"><a href=""><i class="fab fa-instagram fa-fw"></i></li></a>
+                </ul>
             </div>
         </div>
 
 
+
     </header>
 
-    <!--------  About Us  -------->
+    <!--------  ABOUT US  -------->
 
     <section>
         <div class="container-fluid">
@@ -100,12 +101,12 @@
         </div>
     </section>
 
-    <!--------  Image Breaker  -------->
+    <!--------  IMAGE BREAKER  -------->
 
     <div class="jumbotron" id="mower">
     </div>
 
-    <!--------  Our Services  -------->
+    <!--------  OUR SERVICES -------->
 
     <section>
         <div class="container-fluid">
@@ -211,12 +212,12 @@
         </div>
     </section>
 
-    <!--------  Image Breaker -------->
+    <!--------  IMAGE BREAKER -------->
 
     <div class="jumbotron" id="garden">
     </div>
 
-    <!--------  Contact Page -------->
+    <!--------  CONTACT PAGE -------->
 
     <section>
         <div class="container-fluid">
@@ -226,7 +227,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 more-margin-tweak">
                     <div class="row">
                         <div class="col-12">
                             <img class="small-logo" src="/assets/images/CLAM-Final-TRANS.svg">
@@ -265,27 +266,29 @@
                         <div class="col">
                             <p class="main uppercase centertext">Get a Quote</p>
 
-                                <div class="center-form">
-                                    <form>
-                                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                                        <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required />
-                                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Job Description" required></textarea>
-                                        <div class="form-row text-center">
-                                            <div class="col margin-tweak">
-                                                <a href="#" id="getquote">Send</a>
-                                            </div>
+                            <div class="center-form">
+                                <form>
+                                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                                    <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required />
+                                    <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Job Description" required></textarea>
+                                    <div class="form-row text-center">
+                                        <div class="col margin-tweak">
+                                            <a href="#" id="getquote">Send</a>
                                         </div>
-                                    </form>
-                                </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
-
+    <footer class="container-fluid footer-background-color">
+        <div class="row">
+            <div class="col-12 centertext"><h4 class="main white">Copyright 2019</h4></div>
+        </div>
     </footer>
 
 

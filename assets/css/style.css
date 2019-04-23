@@ -99,7 +99,7 @@ body {
 }
 
 #wrapper {
-    background-image: url(../images/land4.jpeg);
+    background-image: url(../images/landing_comp.jpeg);
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
@@ -119,7 +119,7 @@ body {
     
 }
 
-#getquote {
+.getquote {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     background-color: #dc3d47;
@@ -139,7 +139,7 @@ body {
     -o-transition: all 0.35s ease;
 }
 
-#getquote:hover {
+.getquote:hover {
     background-color: #E15A62;
     text-decoration: none;
 }

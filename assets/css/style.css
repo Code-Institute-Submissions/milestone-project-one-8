@@ -142,6 +142,7 @@ body {
 .getquote:hover {
     background-color: #E15A62;
     text-decoration: none;
+    color: #FEF5F5;
 }
 
 
@@ -235,8 +236,11 @@ body {
     width: 100%;
     height: 0;
     text-align: center;
-    background: rgba(255, 255, 255, 0.7);
+    background: #389a1482;
     transition: height 0.7s ease-out;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 15px;
 }
 
 .pic:hover>.text {
@@ -245,7 +249,7 @@ body {
 
 .text h3,
 .text h4 {
-    color: #696469;
+    color: #ffffff;
 }
 
 .service {
@@ -256,7 +260,7 @@ body {
 
 .inner {
     padding: 15px 0px;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 
 

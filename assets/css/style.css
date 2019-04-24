@@ -175,7 +175,7 @@ body {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 7px;
     text-align: center;
     color: #696469;
@@ -189,7 +189,7 @@ body {
 }
 
 .social li a i:hover {
-    background: #E15A62;
+    background: #83d00e;
 }
 
 .media {

@@ -13,20 +13,12 @@ body {
     }
     
 html {
-  scroll
+  scroll-behavior: smooth;
 }
 
-/********  COLOURS ********/
-
-.bg-colour-quote-form {
-    background-color: #696469
 }
 
-.footer-background-color {
-    background-color: #696469;
-}
-
-/********  SPECIAL / PADDINGS / MARGINS / TEXT ********/
+/********  SPECIAL TEXT ********/
 
 .uppercase {
     text-transform: uppercase;
@@ -37,6 +29,7 @@ html {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     line-height: 30px;
+    
 }
 
 .centertext {
@@ -410,10 +403,17 @@ html {
 
 /**********  Footer  ***********/
 
-.inline {
+.footer {
     display: inline-block;
+    color: #ffffff
 }
 
+.footer:hover {
+     color: #343a40;
+}
+
+.footer-background-color {
+    background-color: #389a14;
 
 
 /**********  Media Queries  ***********

@@ -51,15 +51,25 @@ The following was used to construct the site:
 
 ## Testing
 
-## Deployment
+The site achieves the objective to the give the new business a bright fresh online presence and gives mulitiple opportunities for potential customers to connect and get a quote.
+
+Currently the social media links are not working as the pages are not created but they will be soon and I wanted to leave them there for design purposes.
+
+The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone X : Chrome and Safari, iPad, Samsung Galaxy S7) to ensure compatibility and responsiveness.
 
 ## Credits 
 
 ### Content
 
+All content in the 'About' and 'Services' section was written by me and then cross checked for accuracy and validation by brother.
+
 ### Media
 
-Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](https://stock.adobe.com/ie/).  [Tinypng](https://tinypng.com/) to compress images from high res state and maintain quality
+Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](https://stock.adobe.com/ie/).  [Tinypng](https://tinypng.com/) was used to compress images from high res state and maintain quality
 
 
 ### Acknowledgements
+
+Stack Overflow was used to edit the default bootstrap4 navbar and the link can be found [here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
+
+The [modal](https://getbootstrap.com/docs/4.3/components/modal/) and [form](https://getbootstrap.com/docs/4.3/components/forms/) was created using bootstrap 4

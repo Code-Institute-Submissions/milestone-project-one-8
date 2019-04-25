@@ -125,6 +125,7 @@ body {
     background-color: #dc3d47;
     color: #FEF5F5;
     border-radius: 50px;
+    border:none;
     width: 180px;
     height: 50px;
     font-size: 18px;
@@ -350,6 +351,10 @@ body {
 .contact-details-item .value {
     position: relative;
     width: 45%;
+}
+
+.contact-details-item .value a {
+    text-decoration: none;
 }
 
 .margin-tweak {

@@ -10,6 +10,10 @@ section {
 html,
 body {
     height: 100%;
+    }
+    
+html {
+  scroll
 }
 
 /********  COLOURS ********/
@@ -406,9 +410,11 @@ body {
 
 /**********  Footer  ***********/
 
-
-
+.inline {
+    display: inline-block;
 }
+
+
 
 /**********  Media Queries  ***********
 

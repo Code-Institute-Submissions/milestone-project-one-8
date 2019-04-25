@@ -61,11 +61,13 @@ The site was tested across multiple browsers (Chrome, Safari, Internet Explorer,
 
 ### Content
 
-All content in the 'About' and 'Services' section was written by me and then cross checked for accuracy and validation by brother.
+All content in the 'About' and 'Services' section was written by me and then cross checked for accuracy and validation by my brother and his business partner.
 
 ### Media
 
-Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](https://stock.adobe.com/ie/).  [Tinypng](https://tinypng.com/) was used to compress images from high res state and maintain quality
+Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](https://stock.adobe.com/ie/).  
+
+[Tinypng](https://tinypng.com/) was used to compress images from high res state to maintain quality
 
 
 ### Acknowledgements
@@ -73,3 +75,5 @@ Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](
 Stack Overflow was used to edit the default bootstrap4 navbar and the link can be found [here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
 
 The [modal](https://getbootstrap.com/docs/4.3/components/modal/) and [form](https://getbootstrap.com/docs/4.3/components/forms/) was created using bootstrap 4
+
+My mentor Simen was very helpful for general advice and feedback during our scheduled meetings, particularly in ensuring the purpose matched the product and 

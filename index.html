@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="navbar-nav ml-auto navbar-right">
                     <li class="nav-item ">
-                        <a href="# " class="nav-link ">Home</a></li>
+                        <a href="#wrapper" class="nav-link ">Home</a></li>
                     <li class="nav-item ">
-                        <a href="# " class="nav-link ">Our Services</a></li>
+                        <a href="#about" class="nav-link ">About</a></li>
                     <li class="nav-item ">
-                        <a href="# " class="nav-link ">About</a></li>
+                        <a href="#ourservices" class="nav-link ">Our Services</a></li>
                     <li class="nav-item ">
-                        <a href="# " class="nav-link ">Contact Us</a></li>
+                        <a href="#contactus" class="nav-link ">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -67,7 +67,7 @@
 
     <!--------  ABOUT US  -------->
 
-    <section>
+    <section id="about">
         <div class="container-fluid">
             <div class="row justify-content-around">
                 <div class="col-auto">
@@ -120,7 +120,7 @@
 
     <!--------  OUR SERVICES -------->
 
-    <section>
+    <section id="ourservices">
 
         <!--------  Section Heading  --------->
 
@@ -242,7 +242,7 @@
 
     <!--------  CONTACT PAGE -------->
 
-    <section>
+    <section id="contactus">
 
         <!--------  Smaller Logo and Contact Details  -------->
 
@@ -335,7 +335,23 @@
     <footer class="container-fluid footer-background-color">
         <div class="row">
             <div class="col-12 centertext">
-                <h4 class="main white">Copyright 2019</h4>
+                <a href="#wrapper">
+                    <p class="main inline">| Home</p>
+                </a>
+                <a href="#about">
+                    <p class="main inline">| About</p>
+                </a>
+                <a href="#ourservices">
+                    <p class="main inline">| Our Services</p>
+                </a>
+                <a href="#contactus">
+                    <p class="main inline">| Contact</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 centertext">
+                <h4 class="main white">&#169; 2019</h4>
             </div>
         </div>
     </footer>
@@ -365,14 +381,39 @@
                                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Job Description" rows="4"></textarea>
                             </div>
                             <button type="button" class="getquote btn btn-primary">Get Quote</button>
-                            
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>

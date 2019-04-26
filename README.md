@@ -9,11 +9,12 @@ He also wanted this achieved in a simple and clear way as his market demographic
 
 Given the brief it was clear we needed to have strong clear pitch throughout the page to reiterate to the visitor why it was worthwhile to get in touch for a quote.
 This meant considering the key value propostion that needed communicating within a relatively short space of time to spark interest and potentially inspire a connection.
-With a clear purpose of generating as higher chance of a customer making contact, this objective is reflected through the many possible 'get quote' touch points
-through out.  There is also a clear call to action on the landing page and a clear 'why' message in the about page presented almost immediately, followed by the services offered.
+With a clear purpose of generating as higher chance of a customer making contact, this objective is reflected with several 'get quote' buttons on the landing page and at the bottom of each section.  There is also a clear call to action on the landing page and a clear 'why' message in the about page presented almost immediately, followed by the services offered.
 The presence of the phone number in the corner is an important consideration, my brother Ken has often found his customers like an easy way to get in touch and has taken feedback that other businesses are too hard to navigate to the phone number.
-Again this is a reflection of the bulk of his customer base at the moment, which tends to be the older age bracket.  That said, if a younger demographic visits the page it still needs
-to look interesting and colorful enough to hold their interest and potentially inspire a connection as well.
+Again this is a reflection of the bulk of his customer base at the moment, which tends to be the older age bracket.  That said, if any demographic visits the page it still needs
+to look interesting and colorful enough to hold their interest and potentially inspire a connection.
+
+The typography, colors and images were chosen based on the brief and the purpose - simple, clear and fresh.  The green is an obvious link to the type of business.
 
 For the wireframes I used Figma and they can be found [Here.](https://www.figma.com/file/TFhKUFZm6Jwh3Q1qq7ujJ9hu/Explore?node-id=18%3A162)
 
@@ -35,7 +36,7 @@ Each section is designed to reinforce a different value propostion in order to p
 
 ### Features Left to Implement
 
-As the business matures the client will be collecting positive customer testimonials and also a gallery of photos which will each have their own section.
+As the business matures the client will be collecting positive customer testimonials and also a gallery of photos which will each have their own section.  Also the photos behind the type of service will be changed to real shots from customer jobs.
 
 
 ## Technologies Used
@@ -51,11 +52,15 @@ The following was used to construct the site:
 
 ## Testing
 
-The site achieves the objective to the give the new business a bright fresh online presence and gives mulitiple opportunities for potential customers to connect and get a quote.
+The site achieves the objective to give the new business a bright fresh online presence and gives mulitiple opportunities for potential customers to connect and get a quote.
 
 Currently the social media links are not working as the pages are not created but they will be soon and I wanted to leave them there for design purposes.
 
 The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone X : Chrome and Safari, iPad, Samsung Galaxy S7) to ensure compatibility and responsiveness.
+
+Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display.
+
+## Deployment
 
 ## Credits 
 
@@ -69,10 +74,17 @@ The logo was supplied by my brothers friend - Matthew Barnes - who is a graphic 
 
 Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](https://stock.adobe.com/ie/).  
 
-[Tinypng](https://tinypng.com/) was used to compress images from high res state to maintain quality
+The team photo was supplied by my brother.
+
+[Tinypng](https://tinypng.com/) was used to compress images from high res state to maintain quality.
 
 
 ### Acknowledgements
 
 Stack Overflow was used to edit the default bootstrap4 navbar and the link can be found [here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
 
+Stack Overflow was also referenced to implement the hover effect of the images in the about services page and can be found [here](https://stackoverflow.com/questions/22675760/text-over-image-using-css-transitions)
+
+The codeinstitute example site by Haley Schafer inspired the layout design and that page can be found [here](https://www.haleyschafer.com/)
+
+The codeinsitute example cv mini project inspired the contact and get quote page and also the social media icons.

@@ -21,7 +21,7 @@ html {
 
 .uppercase {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     font-family: Roboto;
     font-size: 1rem;
 }
@@ -133,6 +133,7 @@ html {
     font-size: 18px;
     padding: 14px 35px;
     display: block;
+    border:none;
     margin: auto;
     text-align: center;
     text-decoration: none;
@@ -218,10 +219,15 @@ html {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    
+    height: auto;
+    display: block;
+    border-radius: 50px;
 }
 
 /******** OUR SERVICES PAGE ************/
+
+
+/********  The below code was referenced from stack overflow and optimised to suit  ********/
 
 .pic {
     position: relative;
@@ -254,6 +260,8 @@ html {
 .text h4 {
     color: #ffffff;
 }
+
+/*******  End of the code referenced from Stack Overflow  *******/
 
 .service {
     border-radius: 0px;
@@ -317,7 +325,7 @@ html {
 
 }
 
-/********  Contact Page  ********/
+/********  CONTACT PAGE  ********/
 
 .small-logo {
     width: 75%;
@@ -368,7 +376,7 @@ html {
 }
 
 
-/********  Image Breakers  ********/
+/********  IMAGE BREAKERS  ********/
 
 #mower {
     background-image: url("/assets/images/mowing.jpg");

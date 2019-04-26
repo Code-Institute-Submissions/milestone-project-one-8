@@ -63,6 +63,8 @@ The site was tested across multiple browsers (Chrome, Safari, Internet Explorer,
 
 All content in the 'About' and 'Services' section was written by me and then cross checked for accuracy and validation by my brother and his business partner.
 
+The logo was supplied by my brothers friend - Matthew Barnes - who is a graphic designer.  His page can be found [here.](http://www.mzbarnes.com/) 
+
 ### Media
 
 Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](https://stock.adobe.com/ie/).  
@@ -74,6 +76,3 @@ Images were taken from [Pexels](https://www.pexels.com/) and also [Adobe Stock](
 
 Stack Overflow was used to edit the default bootstrap4 navbar and the link can be found [here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
 
-The [modal](https://getbootstrap.com/docs/4.3/components/modal/) and [form](https://getbootstrap.com/docs/4.3/components/forms/) was created using bootstrap 4
-
-My mentor Simen was very helpful for general advice and feedback during our scheduled meetings, particularly in ensuring the purpose matched the product and 

@@ -4,7 +4,7 @@
 /*********  GLOBAL  **********/
 
 section {
-    margin: 0 2% 5% 2%;
+    margin: 0 1rem 2rem 1rem;
 }
 
 html,
@@ -22,6 +22,8 @@ html {
 .uppercase {
     text-transform: uppercase;
     font-weight: 500;
+    font-family: Roboto;
+    font-size: 1rem;
 }
 
 .main {
@@ -431,34 +433,17 @@ html {
 }
 
 @media (min-width: 568px) and (max-width: 991px ) {
-    .main, .uppercase {
+    .main  {
         font-size: 1rem;
     }
 }
 
-/*
-@media (min-width: 375px) and (max-width: 767px) {
-    .pos-social {
-        top: 15%;
+@media (min-width: 568px) and (max-width: 1024px ) {
+    .uppercase  {
+        font-size: 14px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1100px) {
-    .pos-social {
-        top: 20%;
-    }
-}
 
-@media (min-width: 320px) and (max-width: 768px) {
-    .pos-logo {
-        top: 10%;
-    }
-}
 
-@media (min-width: 150px) and (max-width: 319px) {
-    .pos-logo {
-        top: 15%;
-    }
-}
-*/
 

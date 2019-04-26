@@ -16,7 +16,6 @@ html {
   scroll-behavior: smooth;
 }
 
-}
 
 /********  SPECIAL TEXT ********/
 
@@ -415,21 +414,19 @@ html {
 .footer-background-color {
     background-color: #389a14;
 
-
-/**********  Media Queries  ***********
-
-
-
-@media (min-width: 968px) {
-    .logo {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
 }
 
 
+/**********  Media Queries  ***********/
+
+
+@media (max-width: 567px ) {
+    .main {
+        font-size: 0.75rem;
+    }
+}
+
+/*
 @media (min-width: 375px) and (max-width: 767px) {
     .pos-social {
         top: 15%;

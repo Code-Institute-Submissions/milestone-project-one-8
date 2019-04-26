@@ -215,7 +215,7 @@ html {
 
 .teamphoto {
     padding-right: 0;
-    background-image: url(/milestone-project-one/assets/images/frankandken.jpg);
+    background-image: url(assets/images/frankandken.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;

@@ -102,7 +102,7 @@ html {
 }
 
 #wrapper {
-    background-image: url(assets/images/landing_comp.jpeg);
+    background-image: url("../images/landing_comp.jpeg");
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
@@ -215,7 +215,7 @@ html {
 
 .teamphoto {
     padding-right: 0;
-    background-image: url(assets/images/frankandken.jpg);
+    background-image: url("../images/frankandken.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -379,7 +379,7 @@ html {
 /********  IMAGE BREAKERS  ********/
 
 #mower {
-    background-image: url("assets/images/mowing.jpg");
+    background-image: url("../images/mowing.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -390,7 +390,7 @@ html {
 }
 
 #dirt {
-    background-image: url("assets/images/dirt.jpg");
+    background-image: url("../images/dirt.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -402,7 +402,7 @@ html {
 }
 
 #garden {
-    background-image: url("assets/images/gardenpath.jpg");
+    background-image: url("../images/gardenpath.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;

@@ -418,11 +418,13 @@ html {
 
 .footer {
     display: inline-block;
-    color: #ffffff
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .footer:hover {
      color: #343a40;
+     text-decoration: none;
 }
 
 .footer-background-color {

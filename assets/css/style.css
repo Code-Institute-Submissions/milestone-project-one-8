@@ -102,7 +102,7 @@ html {
 
 #wrapper {
     background: url('../images/gardening.jpg') center center/cover no-repeat fixed;
-    height: 100vh;
+    height: 100%;
     width: 99vw;
     z-index: 1;
     -moz-background-size: cover;

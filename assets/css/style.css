@@ -103,7 +103,7 @@ html {
 
 #wrapper {
     background-attachment: fixed;
-    background-image: url("../images/landing_comp.jpg");
+    background-image: url('../images/landing.png');
     background-position: bottom;
     background-size: cover;
     height: 100vh;

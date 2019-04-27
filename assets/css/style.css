@@ -101,7 +101,7 @@ html {
 }
 
 #wrapper {
-    background: url('../images/gardening.jpg') center center/cover no-repeat;
+    background: url('../images/landing_comp.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 99vw;
     z-index: 1;
@@ -449,4 +449,10 @@ html {
     .uppercase {
         font-size: 14px;
     }
+}
+
+@media (max-width: 1023px) {
+#mower, #garden, #dirt {
+    background-attachment: scroll
+}
 }

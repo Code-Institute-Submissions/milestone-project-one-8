@@ -103,7 +103,6 @@ html {
 
 #wrapper {
     background: url('../images/landing.png') no-repeat center center fixed;
-    background-size: cover;
     height: 100vh;
     width: 99vw;
     overflow: hidden;

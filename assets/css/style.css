@@ -105,7 +105,7 @@ html {
     background-attachment: fixed;
     background-image: url('../images/landing.png');
     background-position: bottom;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
     width: 99vw;
     margin-bottom: 0px;

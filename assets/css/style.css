@@ -106,6 +106,7 @@ html {
     background-image: url('../images/landing.png');
     background-position: bottom;
     background-size: contain;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 99vw;
     margin-bottom: 0px;

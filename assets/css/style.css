@@ -10,10 +10,10 @@ section {
 html,
 body {
     height: 100%;
-    }
-    
+}
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 
@@ -30,7 +30,7 @@ html {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     line-height: 30px;
-    
+
 }
 
 .centertext {
@@ -82,23 +82,22 @@ html {
 
 /********  End of Code credited to Stack Overflow  *********/
 
-
 /********  HEADER  ************/
 
 .pos-logo {
     position: relative;
-    
+
 }
 
 .pos-quote {
     position: relative;
     top: 3rem;
-    }
+}
 
 .pos-social {
     position: relative;
     top: 5rem;
-    
+
 }
 
 #wrapper {
@@ -106,8 +105,11 @@ html {
     height: 100vh;
     width: 99vw;
     z-index: 1;
-   
- }
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+
+}
 
 .logo {
     position: absolute;
@@ -115,7 +117,7 @@ html {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
 
 .getquote {
@@ -129,7 +131,7 @@ html {
     font-size: 18px;
     padding: 14px 35px;
     display: block;
-    border:none;
+    border: none;
     margin: auto;
     text-align: center;
     text-decoration: none;
@@ -221,7 +223,6 @@ html {
 }
 
 /******** OUR SERVICES PAGE ************/
-
 
 /********  The below code was referenced from stack overflow and optimised to suit  ********/
 
@@ -419,8 +420,8 @@ html {
 }
 
 .footer:hover {
-     color: #343a40;
-     text-decoration: none;
+    color: #343a40;
+    text-decoration: none;
 }
 
 .footer-background-color {
@@ -431,25 +432,21 @@ html {
 
 /**********  Media Queries  ***********/
 
-
-@media (max-width: 567px ) {
-    .main, .uppercase {
+@media (max-width: 567px) {
+    .main,
+    .uppercase {
         font-size: 0.85rem;
     }
 }
 
-@media (min-width: 568px) and (max-width: 991px ) {
-    .main  {
+@media (min-width: 568px) and (max-width: 991px) {
+    .main {
         font-size: 1rem;
     }
 }
 
-@media (min-width: 568px) and (max-width: 1024px ) {
-    .uppercase  {
+@media (min-width: 568px) and (max-width: 1024px) {
+    .uppercase {
         font-size: 14px;
     }
 }
-
-
-
-

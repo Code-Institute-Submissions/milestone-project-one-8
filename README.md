@@ -67,19 +67,26 @@ I would like to test the page on a larger apple computer but I dont have access 
 This page, whilst fairly simple aesthetics, caused me the most challenge.  One of the biggest difficulties I had was incorporating the transparent image to enlargen in size as the screen went from mobile size and up.
 I intially attempted this with straight CSS and then moved on to bootstrap 4 which did prove to be much easier once I had a good handle on the grid system.   
 Currently the social media links are not working as the pages are not created but they will be soon and I wanted to leave them there for design purposes.
+The image for this page was difficult to get and eventually sourced from adobe stock as I could not get the right contrast for the logo and the look I needed to achieve from the free image website repositories (such as pexels.)
 
 ### About Us Page
 
-This page is 3 columns which then splits into two as the screen size reduces, where the centre column (team photo) is removed until the mobile sizes where all columns are stacked on top of each other.
+This page is 3 columns which then splits into two as the screen size reduces, where the centre column (team photo) is removed until the mobile sizes where it is brought back in and all columns are stacked on top of each other.
 This page can be reached from the Navbar and the footer and is designed to sit neatly under the heading once it scrolls down, which is achieved on screens larger than 992px.  On screens smaller than this it still works but the menu needs to be closed to see it.
 This goes all the pages other than the landing page.
 
+###  Services Page
+
+This page incorporated a transition from the images to text which was challenging to achieve until I could find a demonstration on stack overflow (reference in credits).  The color was then matched to pallete of the page.  The fonts were altered using media queries as screen sizes got larger.
+The images were time-consuming to source and most were able to be pulled down from Pexels, with a couple from adobe stock.  Initially all the images were far too large and needed to be reduced in size even before putting into Tinypng to get the best compression without comprimising quality.
+The landscaping image was changed, even after I reduced it and put through Tinypng it was still 1mb and conscious of data usage and page load time I switched it to a smaller image which reduced down to around 619kb.
+
+
 ### Contact Page
 
-This page 
+This page was split into two columns and the challenging part of this was getting the smaller logo and contact details to align centrally for smaller screens and then align to the left for screens larger than 767px.
+The form was relatively straight forward and worked well responsively using bootstrap4 from the outset.
 
-
-  Specifically the image of the business owners is displayed for desktop sizes and is removed for tablet sizes and then re-inserted for mobiles.  Also the font sizes get smaller as the viewport decreases.
 
 ## Deployment
 
@@ -89,9 +96,10 @@ The site was deployed to github directly from the master branch.  Whilst I did n
 
 ### Content
 
-All content in the 'About' and 'Services' section was written by me and then cross checked for accuracy and validation by my brother and his business partner.
+All content in the 'About' and 'Services' section was written by myself, as stated it will be edited as I get further clarification on the exact services offered.
 
-The logo was supplied by my brothers friend - Matthew Barnes - who is a graphic designer.  His page can be found [here.](http://www.mzbarnes.com/) 
+The logo was supplied by my brothers friend - Matthew Barnes - who is a graphic designer.  Initially it was sent as JPEG and PNG, however, I had him send me a transparent SVG file to improve the scalability and loading time for the landing page.
+His page can be found [here.](http://www.mzbarnes.com/) 
 
 ### Media
 
@@ -101,7 +109,7 @@ The team photo was supplied by my brother.
 
 [Tinypng](https://tinypng.com/) was used to compress images from high res state to maintain quality.
 
-[MS Paint](https://ms-paint.en.softonic.com/) was also used to re-size larger images to a size which Tinypng would accept (5mb)
+[MS Paint](https://ms-paint.en.softonic.com/) was also used to re-size images down to full hd before putting through Tinypng to maximise compression.
 
 
 ### Acknowledgements

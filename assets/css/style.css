@@ -463,3 +463,15 @@ html {
     background-attachment: scroll
 }
 }
+
+@media (max-width: 767px) {
+.contact-details-item {
+    padding-left: 10%;
+}
+}
+
+@media (max-width: 767px) {
+.small-logo {
+    margin: auto;
+}
+}

@@ -87,13 +87,13 @@ The team photo was supplied by my brother.
 
 ### Acknowledgements
 
-Stack Overflow was used to edit the default bootstrap4 navbar colors and the link can be found [here.](https://stackoverflow.com/questions/43381596/bootstrap-4-navbar-color). 
+Stack Overflow was used to edit the default bootstrap4 navbar colors and the link can be found [here.](https://stackoverflow.com/questions/43381596/bootstrap-4-navbar-color) 
 
 The developer for this is [Zim.](https://stackoverflow.com/users/171456/zim)
 
-Stack Overflow was also referenced to implement the hover effect of the images in the about services page and can be found [here](https://stackoverflow.com/questions/22675760/text-over-image-using-css-transitions)
+Stack Overflow was also referenced to implement the hover effect of the images in the about services page and can be found [here.](https://stackoverflow.com/questions/22675760/text-over-image-using-css-transitions)
 
-The developer for this is [Cristofer Vilander.](https://stackoverflow.com/users/1137696/christofer-vilander).
+The developer for this is [Cristofer Vilander.](https://stackoverflow.com/users/1137696/christofer-vilander)
 
 The codeinstitute example site by [Haley Schafer](https://www.haleyschafer.com/) inspired the layout design.
 

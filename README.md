@@ -1,7 +1,9 @@
 
 # Project - Cygnet Lawn and Maintenance
 
-This project is a commercial page designed for my brother who is starting a new lawn mowing and garden maintenance business.
+This project is a commercial page designed for my brother who is starting a new lawn mowing and garden maintenance business, it can be found [here](https://lesreddy.github.io/milestone-project-one/)
+
+
 His brief was to create a page which provided a relevant online presence and which would persuade the visitor to make contact and get a quote.
 He also wanted this achieved in a simple and clear way as his market demographic is older and less tech savvy than younger generations in general.
 
@@ -58,9 +60,11 @@ Currently the social media links are not working as the pages are not created bu
 
 The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone X : Chrome and Safari, iPad, Samsung Galaxy S7) to ensure compatibility and responsiveness.
 
-Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display.
+Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display.  Specifically the image of the business owners is displayed for desktop sizes and is removed for tablet sizes and then re-inserted for mobiles.
 
 ## Deployment
+
+The site was deployed to github and is deployed directly from the master branch.
 
 ## Credits 
 
@@ -78,13 +82,19 @@ The team photo was supplied by my brother.
 
 [Tinypng](https://tinypng.com/) was used to compress images from high res state to maintain quality.
 
+Windows paint was also used to re-size larger images to a size which Tinypng would accept (5mb)
+
 
 ### Acknowledgements
 
-Stack Overflow was used to edit the default bootstrap4 navbar and the link can be found [here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
+Stack Overflow was used to edit the default bootstrap4 navbar colors and the link can be found [here](https://stackoverflow.com/questions/43381596/bootstrap-4-navbar-color). 
+
+The developer for this is [Zim](https://stackoverflow.com/users/171456/zim)
 
 Stack Overflow was also referenced to implement the hover effect of the images in the about services page and can be found [here](https://stackoverflow.com/questions/22675760/text-over-image-using-css-transitions)
 
-The codeinstitute example site by Haley Schafer inspired the layout design and that page can be found [here](https://www.haleyschafer.com/)
+The developer for this is [cristofer Vilander](https://stackoverflow.com/users/1137696/christofer-vilander).
+
+The codeinstitute example site by [Haley Schafer](https://www.haleyschafer.com/) inspired the layout design.
 
 The codeinsitute example cv mini project inspired the contact and get quote page and also the social media icons.

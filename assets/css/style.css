@@ -51,7 +51,7 @@ html {
     text-align: right;
 }
 
-/**********   The below code is credited to Stack Overflow (changed property values) ***********/
+/**********   The below code is credited to Stack Overflow (changed property values) - developer Zim.  ***********/
 
 .navbar-custom {
     background-color: #389a14;
@@ -229,7 +229,7 @@ html {
 
 /******** OUR SERVICES PAGE ************/
 
-/********  The below code was referenced from stack overflow and optimised to suit  ********/
+/********  The below code was referenced from stack overflow and optimised to suit - developer Cristofer Vilander  ********/
 
 .pic {
     position: relative;
@@ -254,6 +254,8 @@ html {
     margin-bottom: 15px;
 }
 
+/*******  End of the code referenced from Stack Overflow  *******/
+
 .pic:hover>.text {
     height: 50%;
 }
@@ -263,7 +265,7 @@ html {
     color: #ffffff;
 }
 
-/*******  End of the code referenced from Stack Overflow  *******/
+
 
 .service {
     border-radius: 0px;

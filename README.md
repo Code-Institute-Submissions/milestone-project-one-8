@@ -34,7 +34,7 @@ There are four key sections to the site
 3.  Services Page
 4.  Contact Page
 
-Each section is designed to reinforce a different value propostion in order to persuade a customer to make contact.  A button is visible at each section for easy access to the quote modal/section.
+Each section is designed to reinforce a different value propostion in order to persuade a customer to make contact.  A button is visible at each section for easy access to the quote modal/section.  Parallex scrolling is evident on the larger screen size (1024px and above)
 
 ### Features Left to Implement
 
@@ -46,8 +46,8 @@ As the business matures the client will be collecting positive customer testimon
 The following was used to construct the site:
 
 1. [Cloud9](https://c9.io/login)
-2. CSS
-3. HTML
+2. CSS 3
+3. HTML 5
 4. [Bootstrap 4](https://getbootstrap.com/)
 5. [Github](https://github.com/)
 6. [Figma](https://www.figma.com) (Wireframes)
@@ -60,7 +60,9 @@ Currently the social media links are not working as the pages are not created bu
 
 The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone X : Chrome and Safari, iPad, Samsung Galaxy S7) to ensure compatibility and responsiveness.
 
-Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display.  Specifically the image of the business owners is displayed for desktop sizes and is removed for tablet sizes and then re-inserted for mobiles.
+Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display.  Specifically the image of the business owners is displayed for desktop sizes and is removed for tablet sizes and then re-inserted for mobiles.  Also the font sizes get smaller as the viewport decreases.
+
+Due to the lack of parallex scrolling (background-attachment: fixed) available on smaller screens (without add JS which is beyond the scope of this project) I put in a media query to initiate background-attachment: scroll feature for screens 1023px and smaller in width.
 
 ## Deployment
 

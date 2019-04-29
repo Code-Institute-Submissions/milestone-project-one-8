@@ -330,6 +330,11 @@ html {
 
 }
 
+.hedge {
+    height: 300px;
+}
+
+
 /********  CONTACT PAGE  ********/
 
 .small-logo {
@@ -419,7 +424,7 @@ html {
 }
 
 
-/**********  Footer  ***********/
+/**********  FOOTER  ***********/
 
 .footer {
     display: inline-block;
@@ -438,7 +443,7 @@ html {
 }
 
 
-/**********  Media Queries  ***********/
+/**********  MEDIA QUERIES  ***********/
 
 
 @media (min-width: 1024px) {

@@ -7,10 +7,22 @@ section {
     margin: 0 1rem 2rem 1rem;
 }
 
+
+/******** Included to fix overflow issue - credit to Anna_Lead for picking this up and supplying (after submitting to peer-code-review in Slack) *********/
+
+.row, 
+.container-fluid,
+.container {
+    margin: 0;
+    padding: 0;
+}
+
 html,
 body {
     height: 100%;
 }
+
+/********   Below snippet is taken from CSS Tricks and is needed to create a smooth scroll effect when clicking on the navbar and footer sections*/
 
 html {
     scroll-behavior: smooth;
@@ -43,6 +55,9 @@ html {
 
 /********  NAVBAR  ************/
 
+
+/******* Phone Icon from Fontawesome needed to help hightlight the phone number in Navbar  ********/
+
 .fa-phone-volume {
     padding: 0 10px;
 }
@@ -52,6 +67,8 @@ html {
 }
 
 /**********   The below code is credited to Stack Overflow (changed property values) - developer Zim.  ***********/
+
+/**********   This was needed to help steer away from the standard bootstrap styling, it helped me understand the syntax and specificity required ********/
 
 .navbar-custom {
     background-color: #389a14;
@@ -108,7 +125,7 @@ html {
 #wrapper {
     background: url('../images/landing_comp.jpg') center center/cover no-repeat;
     height: 100vh;
-    width: 99vw;
+    width: 100%;
     z-index: 1;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -232,6 +249,8 @@ html {
 
 /********  The below code was referenced from stack overflow and optimised to suit - developer Cristofer Vilander  ********/
 
+/*******  It was needed in order to get the correct effect for a transparent transition block of text fading halfway up an image ********/
+
 .pic {
     position: relative;
     overflow: hidden;
@@ -265,7 +284,6 @@ html {
 .text h4 {
     color: #ffffff;
 }
-
 
 
 .service {

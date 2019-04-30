@@ -3,25 +3,33 @@
 
 This project is a commercial page designed for my brother who is starting a new lawn mowing and garden maintenance business, it can be found [here](https://lesreddy.github.io/milestone-project-one/)
 
-
 His brief was to create a page which provided a relevant online presence and which would persuade the visitor to make contact and get a quote.
 He also wanted this achieved in a simple and clear way as his market demographic is older and less tech savvy than younger generations in general.
 
 ## UX
 
-Given the brief it was clear we needed to have strong clear pitch throughout the page to reiterate to the visitor why it was worthwhile to get in touch for a quote.
-This meant considering the key value propostion that needed communicating within a relatively short space of time to spark interest and potentially inspire a connection.
-With a clear purpose of generating as higher chance of a customer making contact, this objective is reflected with several 'get quote' buttons on the landing page and at the bottom of each section.  There is also a clear call to action on the landing page and a clear 'why' message in the about page presented almost immediately, followed by the services offered.
-The presence of the phone number in the corner is an important consideration, my brother Ken has often found his customers like an easy way to get in touch and has taken feedback that other businesses are too hard to navigate to the phone number.
-Again this is a reflection of the bulk of his customer base at the moment, which tends to be the older age bracket.  That said, if any demographic visits the page it still needs
-to look interesting and colorful enough to hold their interest and potentially inspire a connection.
+* Given the brief it was clear we needed to have strong clear pitch throughout the page to reiterate to the visitor why it was worthwhile to get in touch for a quote.
 
-The typography, colors and images were chosen based on the brief and the purpose - simple, clear and fresh.  The green is an obvious link to the type of business.
+* This meant highlighting the key value propostion early on to spark interest and potentially inspire a connection.
+
+* With a clear purpose of generating as high chance of a customer making contact, this objective is reflected with several 'get quote' buttons on the landing page and at the bottom of each section.
+
+* There is also a clear call to action on the landing page and a clear 'why' message in the about page presented almost immediately, followed by the services offered.
+
+* The presence of the phone number in the corner is an important consideration, my brother has often found his customers like an easy way to get in touch and has taken feedback that other businesses are too hard to navigate to the phone number.
+ 
+* As a new user to the site the intention is to keep their interest quickly and guide them to the get quote touchpoints easily.  
+
+* For a returning visitor the site the quote forms need to be quickly accessible and the phone number needs to be easily sourced.
+
+* For a commercial visitor they need to be easily guided to the quote forms and the contact page for making a query through the email address or the quote form.
+
+* The typography, colors and images were chosen based on the brief and the purpose - simple, clear and fresh.  The green is an obvious link to the type of business.
+
+### Wireframes
 
 For the wireframes I used Figma and they can be found [Here.](https://www.figma.com/file/TFhKUFZm6Jwh3Q1qq7ujJ9hu/Explore?node-id=18%3A162)
-
 I initially designed wireframes for the mobile and then the desktop and then I settled on the desktop styling for the final site.
-
 
 ## Features
 
@@ -47,16 +55,21 @@ As the business matures customer testimonials will be added plus a gallery of ph
 
 The following was used to construct the site:
 
-1. [Cloud9](https://c9.io/login)
-2. CSS 3
-3. HTML 5
-4. [Bootstrap 4](https://getbootstrap.com/)
-5. [Github](https://github.com/)
-6. [Figma](https://www.figma.com) (Wireframes)
+1. [Cloud9](https://c9.io/login) is a cloud based coding platform that was used for the coding and storing a local repository.
+2. [Github](https://github.com/) was used as my git repository hosting service. 
+3. [Figma](https://www.figma.com) is a cloud based design tool used for the wireframes.
+
+### Languages
+
+1. CSS 3 - used externally in a file called [style.css](https://github.com/lesreddy/milestone-project-one/tree/master/assets/css)
+2. HTML 5 - created one page called [index.html](https://github.com/lesreddy/milestone-project-one/blob/master/index.html)
+
 
 ## Testing
 
 The site achieves the objective to give the new business a bright fresh online presence and gives mulitiple opportunities for potential customers to connect and get a quote.
+
+
 The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone X : Chrome and Safari, iPad, Samsung Galaxy S7) to ensure compatibility and responsiveness.
 Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display. 
 Due to the lack of parallex scrolling with smaller screens and a known bug with IOS ('background-attachment: fixed' plus 'background-size: cover' [reference](https://caniuse.com/#search=background-size) available on smaller screens (without adding JS which is beyond the scope of this project) I put in a media query to initiate background-attachment: scroll feature for screens 1023px and smaller in width. 
@@ -125,3 +138,5 @@ The developer for this is [Cristofer Vilander.](https://stackoverflow.com/users/
 The codeinstitute example site by [Haley Schafer](https://www.haleyschafer.com/) inspired the layout design.
 
 The codeinsitute example cv mini project inspired the contact and get quote page and also the social media icons.
+
+Css tricks was referenced to source the correct code snippets for [scroll behaviour](https://css-tricks.com/almanac/properties/s/scroll-behavior/) and [mailto](https://css-tricks.com/snippets/html/mailto-links/) functions.

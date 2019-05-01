@@ -126,7 +126,7 @@ html {
     background: url('../images/landing_comp.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
-    z-index: 1;
+    overflow: hidden;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -417,6 +417,7 @@ label {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #dirt {
@@ -429,6 +430,7 @@ label {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #garden {
@@ -441,6 +443,7 @@ label {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
+    overflow:hidden;
 }
 
 

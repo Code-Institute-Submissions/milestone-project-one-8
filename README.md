@@ -77,28 +77,29 @@ I would like to test the page on a larger apple computer but I dont have access 
 
 ### Landing Page
 
-This page, whilst fairly simple aesthetics, caused me the most challenge.  One of the biggest difficulties I had was incorporating the transparent image to enlargen in size as the screen went from mobile size and up.
-I intially attempted this with straight CSS and then moved on to bootstrap 4 which did prove to be much easier once I had a good handle on the grid system.   
-Currently the social media links are not working as the pages are not created but they will be soon and I wanted to leave them there for design purposes.
-The image for this page was difficult to get and eventually sourced from adobe stock as I could not get the right contrast for the logo and the look I needed to achieve from the free image website repositories (such as pexels.)
+* In regard to UX for a new visitor the page has access to a get quote button after a clear value proposition in the call out.
+* For re-visits it also has an easy access to the phone number and quote and links to the other sections on the navbar.
+* Social media links go to the main social media sites and will be more specific as when the pages for the business are created.
+
 
 ### About Us Page
 
-This page is 3 columns which then splits into two as the screen size reduces, where the centre column (team photo) is removed until the mobile sizes where it is brought back in and all columns are stacked on top of each other.
-This page can be reached from the Navbar and the footer and is designed to sit neatly under the heading once it scrolls down, which is achieved on screens larger than 992px.  On screens smaller than this it still works but the menu needs to be closed to see it.
-This goes all the pages other than the landing page.
+* For new visitors this strengthens the value proposition and again has access to a quote modal.
+* For re-visits it offers the quote modal (as they should already be convinced by the value proposition)
+* Page is 3 columns which then splits into two as the screen size reduces, where the centre column (team photo) is removed until the mobile sizes where it is brought back in and all columns are stacked.
+* This page can be reached from the Navbar and the Footer and is designed to sit neatly under the heading once clicked and scrolled.  For screens smaller than 992px it is still achieved the menu needs to be closed to see it (this applies to all sections)
 
 ###  Services Page
 
-This page incorporated a transition from the images to text which was challenging to achieve until I could find a demonstration on stack overflow (reference in credits).  The color was then matched to pallete of the page.  The fonts were altered using media queries as screen sizes got larger.
-The images were time-consuming to source and most were able to be pulled down from Pexels, with a couple from adobe stock.  Initially all the images were far too large and needed to be reduced in size even before putting into Tinypng to get the best compression without comprimising quality.
-The landscaping image was changed, even after I reduced it and put through Tinypng it was still 1mb and conscious of data usage and page load time I switched it to a smaller image which reduced down to around 619kb.
+* For new visitors this helps re-strenthen the value proposition and again gives access to a quote button
+* For revisits the quote page can be accessed.
+* The landscaping image needed changing, even after it was reduced and put through Tinypng it was still 1mb and conscious of data usage/page load time it was switched to an image with a size of 619kb.
 
 
 ### Contact Page
 
-This page was split into two columns and the challenging part of this was getting the smaller logo and contact details to align centrally for smaller screens and then align to the left for screens larger than 767px.
-The form was relatively straight forward and worked well responsively using bootstrap4 from the outset.
+* This page offers all connection options for both new visitors, re-visits or commercial customers.
+* This page was split into two columns and the challenging part of this was getting the smaller logo and contact details to align centrally for smaller screens and then align to the left for screens larger than 767px.
 
 
 ## Deployment

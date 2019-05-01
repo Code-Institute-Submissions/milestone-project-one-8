@@ -19,7 +19,7 @@
     <header class="jumbotron" id="wrapper">
 
         <!--*********  Navbar  ********-->
-        
+
         <!--******** Whilst unconventional to use a phone number for the Navbar Brand this was preferred from the client UX requirements **********-->
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
@@ -41,7 +41,7 @@
         </nav>
 
         <!--*********  Logo / Callout / Quote Button  ********-->
-        
+
         <!--*********  Included as an immediate value statement for visitors to encourage them to stay and read further *******-->
 
         <div class="container-fluid logo">
@@ -123,7 +123,7 @@
     </section>
 
     <!--********  FIRST IMAGE BREAKER  ********-->
-    
+
     <!--********  Image breakers included in order to create the parallex scrolling effect and create a nice contrast to the white sections  **********-->
 
     <div class="jumbotron" id="mower">
@@ -144,7 +144,7 @@
             </div>
 
             <!--********  Service Images and Blurbs ********-->
-            
+
             <!--*******  Included to capture the core services of the business but will need editing when client returns with clarification on which final services will be offered  *********-->
 
             <div class="row">
@@ -212,7 +212,7 @@
                 </div>
                 <div class="col-12 col-sm-3">
                     <div class="pic">
-                    <img class="inner img-fluid" src="assets/images/rubbishremoval.jpg">
+                        <img class="inner img-fluid" src="assets/images/rubbishremoval.jpg">
                         <div class="text">
                             <h3>Rubbish Removal</h3>
                         </div>
@@ -223,7 +223,7 @@
                 </div>
                 <div class="col-12 col-sm-3">
                     <div class="pic">
-                    <img class="inner img-fluid" src="assets/images/guttercleaning.jpg">
+                        <img class="inner img-fluid" src="assets/images/guttercleaning.jpg">
                         <div class="text">
                             <h3>Gutter Cleaning</h3>
                         </div>
@@ -245,7 +245,7 @@
                 </div>
             </div>
             <div class="centertext">
-                <button type="button" class="getquote btn btn-primary" data-toggle="modal" data-target="#getquotemodal">
+                <button type="submit" class="getquote btn btn-primary" data-toggle="modal" data-target="#getquotemodal">
                   Get Quote
                 </button>
             </div>
@@ -265,7 +265,7 @@
 
         <!--********  Smaller Logo and Contact Details  ********-->
 
-        
+
 
         <div class="container-fluid">
             <div class="row mt-0 justify-content-around">
@@ -274,7 +274,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 justify-content-around col-md-6 more-margin-tweak">
+                <div class="col-12 justify-content-around col-md-6 more---tweak">
                     <div class="row">
                         <div class="col-12">
                             <img class="small-logo" src="assets/images/CLAM-Final-TRANS.svg">
@@ -319,21 +319,23 @@
                             <div class="center-form">
                                 <form>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="inputname3" placeholder="Name">
+                                         <label for="inputname">Name:</label>
+                                        <input type="text" class="form-control" id="inputname" placeholder="Name" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                         <label for="inputemail">Email Address:</label>
+                                        <input type="email" class="form-control" id="inputemail" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="inputPhone3" placeholder="Phone">
+                                         <label for="inputphone">Phone Number:</label>
+                                        <input type="number" class="form-control" id="inputphone" placeholder="Phone" required>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Job Description" rows="4"></textarea>
+                                         <label for="cygnetlawntextarea">Job Description:</label>
+                                        <textarea class="form-control" id="cygnetlawntextarea" placeholder="Job Description" rows="4" required></textarea>
                                     </div>
                                     <div class="form-row text-center">
-                                        <div class="col margin-tweak">
-                                            <a href="#" class="getquote">Send</a>
-                                        </div>
+                                        <button type="submit" class="getquote btn btn-primary">Send</button>
                                     </div>
                                 </form>
                             </div>
@@ -341,6 +343,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -392,19 +395,23 @@
                     <div class="center-form">
                         <form>
                             <div class="form-group">
-                                <input type="Name" class="form-control" id="inputname3" placeholder="Name">
+                                <label for="inputname">Name:</label>
+                                <input type="name" class="form-control" id="inputname" placeholder="Name" required>
                             </div>
                             <div class="form-group">
-                                <input type="Email" class="form-control" id="inputEmail3" placeholder="Email">
+                                <label for="inputemail">Email Address:</label>
+                                <input type="email" class="form-control" id="inputemail" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                                <input type="Phone" class="form-control" id="inputPhone3" placeholder="Phone">
+                                <label for="inputphone">Phone Number:</label>
+                                <input type="phone" class="form-control" id="inputphone" placeholder="Phone" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="cygnetlawnTextarea" placeholder="Job Description" rows="4"></textarea>
+                                <label for="cygnetlawntextarea">Job Description:</label>
+                                <textarea class="form-control" id="cygnetlawntextarea" placeholder="Job Description" rows="4" required></textarea>
                             </div>
-                            <button type="button" class="getquote btn btn-primary">Get Quote</button>
-
+                            <button type="submit" class="getquote btn btn-primary">Get Quote</button>
+                        </form>
                     </div>
                 </div>
             </div>

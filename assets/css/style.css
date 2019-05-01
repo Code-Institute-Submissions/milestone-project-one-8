@@ -403,7 +403,9 @@ html {
     margin-bottom: 15px;
 }
 
-
+label {
+    text-transform: uppercase
+}
 /********  IMAGE BREAKERS  ********/
 
 #mower {

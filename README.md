@@ -37,10 +37,10 @@ I initially designed wireframes for the mobile and then the desktop and then I s
 
 There are four key sections to the site
 
-1.  Landing Page
-2.  About Page
-3.  Services Page
-4.  Contact Page
+1.  Landing Page - Shows off the Logo, callout and Navbar with the first get quote button.
+2.  About Page - Re-enforces the callout value proposition and shows second get quote button.
+3.  Services Page - Re-enforces the about page with the services offered and another get quote button.
+4.  Contact Page - Gives contact details and another clear method for customer connection.
 
 Each section is designed to reinforce a different value propostion in order to persuade a customer to make contact.  A button is visible at each section for easy access to the quote modal/section.  Parallex scrolling is evident on the larger screen size (1024px and above).
 
@@ -76,6 +76,9 @@ The site achieves the objective to give the new business a bright fresh online p
 * Due to the lack of parallex scrolling with smaller screens and a known bug with IOS ('background-attachment: fixed' plus 'background-size: cover' - [reference](https://caniuse.com/#search=background-size)) available on smaller screens (without adding JS which is beyond the scope of this project) I put in a media query to initiate 'background-attachment: scroll' feature for screens 1023px and smaller in width. 
 
 * I would like to test the page on a larger apple computer but I dont have access to one, IOS might have an issue with the parallex scrolling.
+
+* All links were tested and worked on all media browsers and devices I had access to. 
+
 
 ### Landing Page
 
@@ -149,13 +152,9 @@ The team photo was supplied by my brother.
 
 ### Acknowledgements
 
-Stack Overflow was used to edit the default bootstrap4 navbar colors and the link can be found [here.](https://stackoverflow.com/questions/43381596/bootstrap-4-navbar-color) 
+Stack Overflow was used to edit the default bootstrap4 navbar colors and the link can be found [here.](https://stackoverflow.com/questions/43381596/bootstrap-4-navbar-color). The developer for this is [Zim.](https://stackoverflow.com/users/171456/zim)
 
-The developer for this is [Zim.](https://stackoverflow.com/users/171456/zim)
-
-Stack Overflow was also referenced to implement the hover effect of the images in the about services page and can be found [here.](https://stackoverflow.com/questions/22675760/text-over-image-using-css-transitions)
-
-The developer for this is [Cristofer Vilander.](https://stackoverflow.com/users/1137696/christofer-vilander)
+Stack Overflow was also referenced to implement the hover effect of the images in the about services page and can be found [here.](https://stackoverflow.com/questions/22675760/text-over-image-using-css-transitions). The developer for this is [Cristofer Vilander.](https://stackoverflow.com/users/1137696/christofer-vilander)
 
 The codeinstitute example site by [Haley Schafer](https://www.haleyschafer.com/) inspired the layout design.
 

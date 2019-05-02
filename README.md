@@ -1,7 +1,7 @@
 
 # Project - Cygnet Lawn and Maintenance
 
-This project is a commercial page designed for my brother who is starting a new lawn mowing and garden maintenance business, it can be found [here](https://lesreddy.github.io/milestone-project-one/)
+This project is a commercial page designed for my brother who is starting a new lawn mowing and garden maintenance business A demo can be found [here.](https://lesreddy.github.io/milestone-project-one/)
 
 His brief was to create a page which provided a relevant online presence and which would persuade the visitor to make contact and get a quote.
 He also wanted this achieved in a simple and clear way as his market demographic is older and less tech savvy than younger generations in general.
@@ -69,7 +69,7 @@ The following was used to construct the site:
 
 The site achieves the objective to give the new business a bright fresh online presence and gives mulitiple opportunities for potential customers to connect and get a quote.
 
-* The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone X : Chrome and Safari, iPad, Samsung Galaxy S7) to ensure compatibility and responsiveness.
+* The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile/tablet devices (iPhone X, IPad, Samsung Galaxy S7, Galaxy C5 Pro) to ensure compatibility and responsiveness.
 
 * Responsiveness was heavily tested and fonts and images were altered accordingly to best suit the size of the display. 
 

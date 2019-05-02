@@ -58,6 +58,8 @@ The following was used to construct the site:
 1. [Cloud9](https://c9.io/login) is a cloud based coding platform that was used for the coding and storing a local repository.
 2. [Github](https://github.com/) was used as my git remote repository hosting service for opensource access.
 3. [Figma](https://www.figma.com) is a cloud based design tool used for the wireframes.
+4. [jquery](https://www.jquery.com) used to reference Javascript for the Modal.
+5. 
 
 ### Languages
 

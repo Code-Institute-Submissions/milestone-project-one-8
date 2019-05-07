@@ -82,6 +82,10 @@ The site achieves the objective to give the new business a bright fresh online p
 
 * All links were tested and worked on all media browsers and devices I had access to. 
 
+* Ran [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the css file and also [W3C Markup Validation Service](https://validator.w3.org/) to validate the html markup.
+
+
+
 
 ### Landing Page
 
@@ -124,8 +128,8 @@ In order to enable this follow these steps:
 If you would like to create a local repository then you need to clone it by taking the following steps:
 
 1. On Github navigate [here](https://github.com/lesreddy/milestone-project-one) to access the remote repository.
-2. Under the repository name click 'Clone or download' (big green button)
-3. In the `Clone with HTTPs section`, click to copy the clone URL for the repository.
+2. Under the repository name click `Clone or download` (big green button)
+3. In the 'Clone with HTTPs section', click to copy the clone URL for the repository.
 4. Open Git Bash in your IDE.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 2. (https://github.com/lesreddy/milestone-project-one.git)

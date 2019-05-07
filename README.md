@@ -55,16 +55,16 @@ As the business matures customer testimonials will be added plus a gallery of ph
 
 The following was used to construct the site:
 
-1. [Cloud9](https://c9.io/login) is a cloud based coding platform that was used for the coding and storing a local repository.
-2. [Github](https://github.com/) was used as my git remote repository hosting service for opensource access.
-3. [Figma](https://www.figma.com) is a cloud based design tool used for the wireframes.
-4. [jquery](https://www.jquery.com) used to reference Javascript for the Modal.
-5. 
+1. [Cloud9](https://c9.io/login) - a cloud based coding platform that was used for the coding and storing a local repository.
+2. [BootstrapCDN](https://www.bootstrapcdn.com/) - used to simplify the structure and to make it responsive.
+3. [jquery](https://www.jquery.com) - used to reference Javascript for the Modal.
+4. [Google Fonts](https://fonts.google.com/) -  used to style the website fonts.
+5. [Figma](https://www.figma.com) - cloud based design tool used for the wireframes.
 
 ### Languages
 
-1. CSS 3 - used externally in a file called [style.css](https://github.com/lesreddy/milestone-project-one/tree/master/assets/css).
-2. HTML 5 - created one page called [index.html](https://github.com/lesreddy/milestone-project-one/blob/master/index.html).
+1. CSS - used externally in a file called [style.css](https://github.com/lesreddy/milestone-project-one/tree/master/assets/css).
+2. HTML - created one page called [index.html](https://github.com/lesreddy/milestone-project-one/blob/master/index.html).
 
 
 ## Testing
@@ -111,23 +111,26 @@ The site achieves the objective to give the new business a bright fresh online p
 
 ## Deployment
 
-The site was deployed to github directly from the master branch.
+The site was developed using [Cloud9 IDE](https://c9.io), commited to Git and then pushed to Github.
 
 In order to enable this follow these steps:
 
 1. On Github navigate to https://github.com/lesreddy/milestone-project-one
-2. Under repository name (lesredd/milestone-project-one) click 'settings'
+2. Under repository name (lesreddy/milestone-project-one) click `settings`
 3. Use the Select source drop-down menu to select master branch as your GitHub Pages publishing source.
-4. Select 'save'.
+4. Select `save`.
 
 If you would like to create a local repository then you need to clone it by taking the following steps:
 
 1. On Github navigate [here](https://github.com/lesreddy/milestone-project-one) to access the remote repository.
 2. Under the repository name click 'Clone or download' (big green button)
-3. In the 'Clone with HTTPs section', click to copy the clone URL for the repository.
-4. Open Git Bash.
+3. In the `Clone with HTTPs section`, click to copy the clone URL for the repository.
+4. Open Git Bash in your IDE.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 2. (https://github.com/lesreddy/milestone-project-one.git)
+```console
+git clone https://github.com/lesreddy/milestone-project-one.git
+```
 7. Press Enter. Your local clone will be created.
 
 Whilst I did not use other branches when pushing it to github, I will be for future larger projects to break it up and then merge as required.

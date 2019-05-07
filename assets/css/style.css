@@ -28,6 +28,9 @@ html {
     scroll-behavior: smooth;
 }
 
+.btn-primary:focus {
+    box-shadow: none;
+}
 
 /********  SPECIAL TEXT ********/
 
@@ -79,7 +82,7 @@ html {
 }
 
 .navbar-custom .navbar-brand:hover {
-    color: #343a40;
+    color: #efe7e7;
 }
 
 
@@ -90,7 +93,7 @@ html {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #343a40;
+    color: #efe7e7;
 }
 
 .custom-toggler.navbar-toggler {

@@ -56,7 +56,8 @@ As the business matures customer testimonials will be added plus a gallery of ph
 The following was used to construct the site:
 
 1. [Cloud9](https://c9.io/login) - a cloud based coding platform that was used for the coding and storing a local repository.
-2. [BootstrapCDN](https://www.bootstrapcdn.com/) - used to simplify the structure and to make it responsive.
+2. [Bootstrap](https://www.bootstrapcdn.com/) - used to simplify the structure and to make it responsive.
+3. [FontAwesome](https://use.fontawesome.com) - accessed for social media icons.
 3. [jquery](https://www.jquery.com) - used to reference Javascript for the Modal.
 4. [Google Fonts](https://fonts.google.com/) -  used to style the website fonts.
 5. [Figma](https://www.figma.com) - cloud based design tool used for the wireframes.

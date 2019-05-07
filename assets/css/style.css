@@ -56,6 +56,12 @@ html {
     color: white;
 }
 
+.heading {
+    font-size: 2.75rem;
+    margin: 1.5rem;
+    color: #389a14;
+}
+
 /********  NAVBAR  ************/
 
 /******* Phone Icon from Fontawesome needed to help hightlight the phone number in Navbar  ********/
@@ -223,12 +229,6 @@ html {
 
 #align {
     text-align: left;
-}
-
-.heading {
-    font-size: 2.75rem;
-    margin: 1.5rem;
-    color: #389a14;
 }
 
 .teamphoto {
@@ -400,9 +400,6 @@ html {
     margin-bottom: 15px;
 }
 
-label {
-    text-transform: uppercase
-}
 
 /********  IMAGE BREAKERS  ********/
 
@@ -476,10 +473,23 @@ a:hover {
     }
 }
 
-@media (max-width: 567px) {
+@media (min-width: 321px) and (max-width: 567px) {
     .main,
     .uppercase {
         font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .heading {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .main,
+    .uppercase {
+        font-size: 0.75rem;
     }
 }
 

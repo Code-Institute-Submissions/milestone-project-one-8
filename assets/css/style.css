@@ -468,13 +468,13 @@ a:hover {
 /**********  MEDIA QUERIES  ***********/
 @media (min-width: 3001px) {
     .logo {
-        max-width: 1750px
+        max-width: 70%
     }
 }
 
-@media (min-width: 2000px) and (max-width: 3000px) {
+@media (min-width: 1900px) and (max-width: 3000px) {
     .logo {
-        max-width: 1250px
+        max-width: 1500px
     }
 }
 

@@ -129,9 +129,7 @@ html {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+   
 
 }
 
@@ -160,9 +158,7 @@ html {
     text-align: center;
     text-decoration: none;
     transition: all 0.35s ease;
-    -moz-transition: all 0.35s ease;
-    -webkit-transition: all 0.35s ease;
-    -o-transition: all 0.35s ease;
+   
 }
 
 .getquote:hover {
@@ -209,9 +205,7 @@ html {
     border: 1px solid #389a14;
     background: #ffffff;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+   
 
 }
 

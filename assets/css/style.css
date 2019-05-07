@@ -454,13 +454,17 @@ label {
 }
 
 .footer:hover {
-    color: #343a40;
+    color: #efe7e7;
     text-decoration: none;
 }
 
 .footer-background-color {
     background-color: #389a14;
 
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 

@@ -466,6 +466,17 @@ a:hover {
 
 
 /**********  MEDIA QUERIES  ***********/
+@media (min-width: 3001px) {
+    .logo {
+        max-width: 1750px
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .logo {
+        max-width: 1250px
+    }
+}
 
 @media (min-width: 1024px) {
     .jumbotron .container-fluid p {
